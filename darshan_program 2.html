@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<body>
+		<h1 style="color : red ;" ><blink>1JT18IS021</blink></h1>
+<style> table,tr,td
+{
+border: inset ;
+width: 33%;
+text-align: center;
+border-collapse: collapse;
+background-color:#7fffd4;
+
+}
+body{
+	text-align: center;
+
+}
+
+
+h1{
+	animation: blinker 1s linear infinite;color: red;
+}
+h2{
+	animation: blinker 0.5s linear infinite;color: blue;
+
+}
+@keyframes blinker { 
+ 50% { opacity: 0; }
+}
+table { margin: auto; }
+</style>
+<script>
+	document.write("<table><tr><th colspan='3'> NUMBERS FROM 10 TO 100 WITH THEIR SQUARES AND CUBES </th></tr>");
+    document.write( "<tr><td>Number</td><td>Square</td><td>Cube</td></tr>" );
+
+for(var n=100; n<=1000; n++)
+	if(n%100==0)
+{
+    document.write( "<tr><td>" + n + "</td><td>" + n*n + "</td><td>" +n*n*n + "</td></tr>" ) ;
+}
+
+document.write( "</table>" ) ;
+</script>
+<h2  style="font-family: arial;" align="center"  ><blink>Assignment 2 Challenge completed</blink></h2>
+
+</body>
+</head>
+</html>
