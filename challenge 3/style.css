@@ -1,0 +1,82 @@
+  
+* {
+      box-sizing: border-box;
+      margin: 1px;
+      padding: 1px;
+    }
+
+    body {
+      font-size: 18px;
+        background-color:#808080;
+        
+    }
+
+    header 
+      a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+/* Change the color of links on mouse-over */
+header a:hover {
+  background-color: lawngreen;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.pill-nav  a.active {
+  background-color: lawngreen;
+  color: black;
+}
+ section 
+      a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+  
+}
+
+
+.ending a.active {
+  background-color: lawngreen;
+  color: black;
+}
+      
+    }
+    .main {
+      position: relative;
+        margin-left: 20px;
+      
+    }
+
+    .main img {
+      margin-left: 5%;
+      height: 300px;
+      width: auto;
+
+    }
+  #demo {
+position: absolute;
+      font-family: monospace;
+  margin-left:60%;
+padding-bottom:450px;
+  transform: translate(-50%, -50%);
+  }
+
+    footer {
+      background: black;
+      color: red;
+    }
+    footer p {
+      padding: 10px;
+    }
+  
